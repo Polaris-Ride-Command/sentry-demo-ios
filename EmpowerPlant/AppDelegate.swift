@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let enableSwizzling = !ProcessInfo.processInfo.arguments.contains("--disable-swizzling")
         
         SentrySDK.start { options in
-            options.dsn = "https://c88045e430864a8e864af6233e7c18ea@o87286.ingest.sentry.io/6249899"
+            options.dsn = "https://bc5d3dafed49e15cd5779eab02ab49e3@o4506951084998656.ingest.us.sentry.io/4507013510660096"
             
             // set the SDK debug mode according to defaults and overrides.
             #if DEBUG
