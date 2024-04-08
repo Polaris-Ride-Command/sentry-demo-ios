@@ -52,7 +52,10 @@ class ListAppViewController: UIViewController {
 //        print(b)
         
         // Attempt #2
-        fatalError("youch!")
+//        fatalError("youch!")
+        
+        // Committing this before even running it
+        [0][1]
     }
     
     @IBAction func captureMessage(_ sender: Any) {
