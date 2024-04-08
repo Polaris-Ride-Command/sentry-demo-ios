@@ -47,9 +47,12 @@ class ListAppViewController: UIViewController {
 //        }
         
         // 4.8.25 Tom - I wonder what this does?
-        let a: String! = nil
-        let b: String = a!
-        print(b)
+//        let a: String! = nil
+//        let b: String = a!
+//        print(b)
+        
+        // Attempt #2
+        fatalError("youch!")
     }
     
     @IBAction func captureMessage(_ sender: Any) {
