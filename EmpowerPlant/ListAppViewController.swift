@@ -31,6 +31,25 @@ class ListAppViewController: UIViewController {
         crumb.message = "tapped addBreadcrumb"
         crumb.type = "user"
         SentrySDK.addBreadcrumb(crumb)
+        
+        // Compiler is too smart for this
+//        var zero = 0
+//        let number = 7593745
+//        let whoops = number/zero
+        
+//        do
+//        {
+//            try RandomErrorGenerator.generate()
+//        }
+//        catch
+//        {
+//            RandomErrorGenerator.generate()
+//        }
+        
+        // 4.8.25 Tom - I wonder what this does?
+        let a: String! = nil
+        let b: String = a!
+        print(b)
     }
     
     @IBAction func captureMessage(_ sender: Any) {
