@@ -53,16 +53,16 @@ class ListAppViewController: UIViewController {
         
         // Attempt #2
 //        fatalError("youch!")
-        
-        // Committing this before even running it
-        [0][1]
     }
     
     @IBAction func captureMessage(_ sender: Any) {
-        let eventId = SentrySDK.capture(message: "Yeah captured a message")
+//        let eventId = SentrySDK.capture(message: "Yeah captured a message")
         // Returns eventId in case of successfull processed event
         // otherwise nil
-        print("\(String(describing: eventId))")
+//        print("\(String(describing: eventId))")
+        
+        // Committing this before even running it. 4.20pm
+        [0][1]
     }
     
     @IBAction func uiClickTransaction(_ sender: Any) {
